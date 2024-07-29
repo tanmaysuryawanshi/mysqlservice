@@ -16,11 +16,11 @@ class MySQLService {
 
   Future<void> init() async {
     final connection = await MySQLConnection.createConnection(
-      host: 'mysql-testdb-tanmaysuryawanshioo7-9c14.g.aivencloud.com',
-      port: 26041,
-      userName: 'avnadmin',
-      password: 'AVNS_84P519y0QjZ501vAVUw',
-      databaseName: 'defaultdb',
+      host: 'your host url',
+      port: your portNumber,
+      userName: 'your user name',
+      password: 'your password ',
+      databaseName: 'your database name',
     );
 
     client = connection;
